@@ -3,14 +3,14 @@ version: git
 summary: BigPanel
 description: |
   BigPanel
-base: core18
+base: core20
 confinement: devmode
 
 
 parts:
   bigpanel:
     plugin: python
-    python-version: python3
+    python-version: python
     source: .
     stage-packages:
       - python-six
