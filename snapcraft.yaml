@@ -2,7 +2,7 @@ name: bigpanel
 version: git
 summary: BigPanel
 description: |
-  BigPanel
+  Linux light weight hosting panel develop from Flask. Bigpanel is a free opensources created in python frameworks.
 base: core20
 confinement: devmode
 
