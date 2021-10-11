@@ -1,0 +1,20 @@
+name: bigpanel
+version: git
+summary: BigPanel
+description: |
+  BigPanel
+base: core18
+confinement: devmode
+
+
+parts:
+  bigpanel:
+    plugin: python
+    python-version: python3
+    source: .
+    stage-packages:
+      - python-six
+
+apps:
+  bigpanel:
+    command: bin/bigpanel
